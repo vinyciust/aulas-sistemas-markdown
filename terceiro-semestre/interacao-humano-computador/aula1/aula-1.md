@@ -17,8 +17,10 @@
  >Conduzir o usuário para uma experiência agradável. A partir do design de interação vem o UX. 
  >Responsável por descrever **como ocorrerá** a interação do usuário com a interface.
 
+ **NUI**: Interface Natural de Usuário<br>
+ >Tem símbolos e cores para representar ações de modo mais simples (affordance).
 
- ## UI -> AI -> UX -> CX
+ ## UI -> AI + IxD -> UX -> CX
 
  ![Eu no futuro](https://uploads-ssl.webflow.com/5cb5ca7babc0511db4eedf95/5d80e6d2dd362e0d237ffe44_ux%20vs%20ui.jpeg)<br>
 ________________________
