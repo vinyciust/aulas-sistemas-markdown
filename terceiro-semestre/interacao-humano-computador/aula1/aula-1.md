@@ -21,8 +21,15 @@
  ## UI -> AI -> UX -> CX
 
  ![Eu no futuro](https://uploads-ssl.webflow.com/5cb5ca7babc0511db4eedf95/5d80e6d2dd362e0d237ffe44_ux%20vs%20ui.jpeg)<br>
+________________________
 
+**Software ergônomico:** é o software que se adapta ao usuário.
 
+## Exercício:
 
- 
-
+-   | Semelhança  | Diferença 
+--- | ---       | ---
+UX  | Exemplo 1  | R$ 5.00
+UI  | Exemplo 2  | R$ 10.00
+AI  | Exemplo 3  | R$ 15.00
+NUI? | 
