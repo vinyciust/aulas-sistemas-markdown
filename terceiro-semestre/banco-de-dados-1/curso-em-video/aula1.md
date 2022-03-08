@@ -14,6 +14,12 @@ _______________________________
 
 Bancos de dados são conjuntos de tabelas, e tabelas são conjuntos de registros, e registros são compostos por campos.
 
+### Conceitos
+
+Chave primária:  campo que não se repete, indicador único de um registro na tabela. Não pode existir duas tuplas (registro) com a mesma chave primária.
+
+ex na vida real: matrícula e cpf
+
 ### Tipos primitivos:
 
 Tem pra caralho.
@@ -41,14 +47,30 @@ not null: não pode ser vazio
 decimal(5,2): campo decimal com 5 espaços sendo 2 deles após a virgula. ex: 102,75
 
         create table pessoas(
+            id int not null auto_increment,
             nome varchar(30) not null,
             nascimento date,
             sexo enum('M','F'),
             peso decimal(5,2),
             altura decimal(3,2),
             nacionalidade varchar(20) default 'Brasil'
+            primary key (id)
 
         ) default charset = utf8;
+ou
+        
+        create table `pessoas`(
+            `id` int not null auto_increment,
+            `nome` varchar(30) not null,
+            `nascimento` date,
+            `sexo` enum('M','F'),
+            `peso` decimal(5,2),
+            `altura` decimal(3,2),
+            `nacionalidade` varchar(20) default 'Brasil'
+            primary key (id)
+
+        ) default charset = utf8;
+
 
 
 Selecionar a tabela;
