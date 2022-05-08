@@ -31,4 +31,4 @@ são muito parecidos porém interrupção se refere a hardware e exceção (trap
 
 **Interrupção:** evento externo, ex clique do mouse, chamada de sistema, impressora. Toda interrupção é assincrona (nao depende de nenhum programa pra ocorrer) e pode ocorrer múltiplas vezes.
 
-**Exceção**: evento sincrono, pq depende da execução de programa. É um ponto do programa que aconteceu algum erro e ele precisa ser tratado pelo sistema operacional
+**Exceção**: evento sincrono, pq depende da execução de programa. É um ponto do programa que aconteceu algum erro e ele precisa ser tratado pelo sistema operacional.
