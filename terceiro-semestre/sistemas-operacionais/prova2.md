@@ -70,3 +70,9 @@ Tipos de SO
 * Em camadas
 
 * Monolítico
+
+# Aula 12/04
+
+* Contexto de Hardware
+prova2_processo.pdf
+
